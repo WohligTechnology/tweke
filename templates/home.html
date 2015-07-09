@@ -1,0 +1,30 @@
+<ion-view view-title="Home">
+    <ion-content>
+
+        <div class="slider-padding">
+            <ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play="3000">
+                <ion-slide>
+                    <div class="text-center paddingb65">
+                        <img src="img/pillow.png" class="logo-size">
+                    </div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="text-center paddingb65">
+                        <img src="img/pillow.png" class="logo-size">
+                    </div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="text-center paddingb65">
+                        <img src="img/pillow.png" class="logo-size">
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+        <div class="title-txt">
+            <p>Some text here</p>
+        </div>
+        <div class="padding text-center mt50">
+            <button class="button button-block button-outline button-positive icon-right ion-plus" ng-click="openedit();">Create</button>
+        </div>
+    </ion-content>
+</ion-view>
